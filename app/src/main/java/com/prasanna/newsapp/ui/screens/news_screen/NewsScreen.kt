@@ -61,7 +61,7 @@ fun NewsScreen(
     val pagerState = rememberPagerState()
     val coroutineScope = rememberCoroutineScope()
     val categories = listOf(
-        " General ", " Business ", " Health ", " Science ", " Sports ", " Technology ", " Entertainment "
+        "General", "Business", "Health", "Science", "Sports", "Technology", "Entertainment"
     )
 
     // Bottom sheet
